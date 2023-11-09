@@ -1,0 +1,39 @@
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+  }
+  
+  h3 {
+    color: maroon;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    color: maroon;
+  }
+  

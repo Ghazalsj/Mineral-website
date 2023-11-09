@@ -1,0 +1,31 @@
+
+.MDBCarousel {
+    max-width: 800px; 
+    margin: auto;
+  }
+  
+
+  .MDBCarouselItem {
+    text-align: center; 
+    background-color: #333; 
+    color: white; 
+    padding: 20px; /*  padding to the slides */
+  }
+  
+  /* Style  images within each slide */
+  .MDBCarouselItem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; 
+  }
+  
+  /* Style of heading and paragraph within each slide */
+  .MDBCarouselItem h5 {
+    font-size: 1.5rem; 
+    margin-bottom: 10px;
+  }
+  
+  .MDBCarouselItem p {
+    font-size: 1rem; 
+  }
+  

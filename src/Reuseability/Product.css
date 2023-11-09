@@ -1,0 +1,367 @@
+
+
+/* Page Title */
+.page-title {
+  font-size: 44px;
+ margin: 70px;
+ margin-top: 600px;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 120px;
+  margin-bottom: 30px;
+  border: 1px solid maroon;
+  background-color: maroon;
+  border-radius: 50px;
+}
+
+/* Filter Section */
+.filter-section {
+ justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 250px;
+ 
+}
+.product-item {
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+}
+
+.product-name {
+  margin-top: 0px;
+}
+
+
+label {
+  justify-content:center ;
+  font-size:24px;
+  font-weight: 800;
+  margin-right: 10px;
+  color: maroon;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  outline: none;
+  color: #333;
+  box-shadow: maroon;
+  margin-right: 200px;
+  margin-bottom: 100px;
+}
+
+/* Search Input */
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid maroon;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* Product List */
+.product-list-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.product-list {
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product-item {
+
+  
+  background-color: #f4f4f4;
+  padding: 75px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+ 
+}
+
+
+
+
+
+.product-category {
+  color: maroon;
+  font-size: 16px;
+}
+
+.product-price {
+  font-weight: bold;
+  font-size: 16px;
+  color: maroon;
+  margin-top: 5px;
+}
+
+/* Pagination */
+.pagination {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-link {
+  margin: 0 5px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: maroon;
+  transition: color 0.2s;
+}
+
+.page-link.active {
+  color: #333;
+}
+
+.page-link:hover {
+  color: #ff6b00;
+}
+.product-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.product-details {
+  flex-grow: 1;
+}
+
+.product-details h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.product-details p {
+  margin: 0;
+}
+
+.product-details p.price {
+  font-weight: bold;
+}
+.filter-section{  
+  display: flex;
+  display: inline;
+  justify-content: center;
+  justify-content: space-around;
+}
+/* Modal Content */
+
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #888;
+  cursor: pointer;
+}
+
+h2 {
+  
+  font-size: 25px;
+  margin: 0 0 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.product-name {
+  font-weight: bold;
+font-size: 40px;
+  color: maroon;
+  font-style: italic;
+  
+}
+
+.product-category {
+  color: maroon;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.product-price {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 10px;
+}
+
+button {
+  background-color: maroon;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #005F79;
+}
+/* Modal */
+.product-details-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  animation: fadeIn 0.3s ease-in-out;
+}
+/* Rest of your existing CSS */
+
+
+
+
+/* Product List */
+.product-list li {
+  cursor: pointer;
+  margin: 20px;
+  padding: 50px;
+  border: 1px solid #ccc;
+  transition: transform 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px; /*  maximum width of the product item */
+  width: 200%; /*  full container width */
+  height: 400px; 
+  position: relative;
+  overflow: hidden; /* Hide overflowing text */
+  perspective: 2000px; /* Enable 3D transforms */
+}
+
+
+.product-image {
+  
+  height: auto; 
+  margin-right: 20px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s; /* transition for image animation */
+  transform-origin: center center;
+}
+.product-image img {
+  width: 100%;
+  height: 500%;
+  object-fit: cover;
+  
+}
+
+
+
+.product-list li .product-details {
+  flex-grow: 1;
+  opacity: 1;
+  transform: translateY(70%); /*  text below initially */
+  transition: opacity 0.3s, transform 0.3s; /*  transitions for text appearing animation */
+}
+
+.product-list li:hover .product-details {
+  opacity: 1; /* Show text on hover */
+  transform: translateY(0); /* Move text up */
+}
+
+
+/* Modal Content */
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 80%;
+  text-align: center;
+  position: relative;
+  transition: transform 0.3s; /* Add transition for modal content animation */
+  transform: scale(1); /* Initial scale for the modal content */
+  opacity: 1; /* Initial opacity for the modal content */
+}
+
+.modal-content h2,
+.modal-content .product-name,
+.modal-content .product-category,
+.modal-content .product-price,
+.modal-content button {
+  opacity: 0; /* Initially hide the text in the modal */
+  transform: translateY(20px); /* Move text down initially */
+  transition: opacity 0.3s ease-in, transform 0.3s ease-in;
+}
+
+.modal-content:hover h2,
+.modal-content:hover .product-name,
+.modal-content:hover .product-category,
+.modal-content:hover .product-price,
+.modal-content:hover button {
+  opacity: 1; /*  text on modal hover */
+  transform: translateY(0); /* Move text up on modal hover */
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+
+.product-details-modal button{
+  background-color: maroon;
+  color: #f4f4f4;
+}
+
+.product-details-modal button:hover{
+  background-color: white;
+  color: maroon;
+}
+
+
+
+@media (max-width: 768px) {
+  .product-list-container {
+    padding: 0 10px;
+  }
+
+  .product-list li {
+    margin: 10px;
+    padding: 10px;
+  }
+}

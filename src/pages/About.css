@@ -1,0 +1,100 @@
+.about-container {
+    background-image: url('https://i.pinimg.com/564x/63/ee/68/63ee6807716489fdf196dd105f3e4cf7.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    justify-content: center;
+   
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .text-overlay h1 {
+    font-size: 36px;
+  }
+  
+  .text-overlay p {
+    font-size: 18px;
+  }
+  .about-container .background-image{
+    margin-bottom: 400px;
+  }
+  .tick-icon{
+    border: 1px solid gray;
+    color: white;
+    background-color: maroon;
+    margin-right: 10px;
+  }
+  .container h2{
+    font-size: 30px;
+    color: maroon;
+    font-weight: 700;
+  }
+  p{
+    font-size: 20px;
+  }
+  
+.heading-container {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.heading-container h1 {
+ font-size: 30px;
+
+}
+
+.separator {
+  margin: 0 10px;
+  font-size: 94px;
+}
+.image-gallery {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  opacity: 0; 
+  animation: fadeIn 0.9s ease-in-out forwards; 
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-80px); 
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.image-item {
+
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.image-item img {
+  width: 120%;
+  height: auto;
+  transition: filter 0.3s ease-in-out;
+}
+
+.image-item:hover img {
+  filter: blur(5px);
+}
+
+
+
+

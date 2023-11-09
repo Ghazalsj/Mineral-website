@@ -1,0 +1,167 @@
+
+
+.container {
+  margin-top: 70px;
+  display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .column {
+ display: flex;
+   text-align: center;
+   justify-content: center;
+ }
+ 
+ .separator {
+   flex: 0 0 auto; 
+   padding: 0 10px; 
+  color: maroon;
+  font-size: 100px;
+ }
+ 
+ 
+ 
+ .heading {
+   font-weight: bold;
+   font-size: 40px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ 
+ .company-info {
+   font-style: italic;
+   color: #333;
+   font-size: 20px;
+ }
+ 
+ 
+ @media (max-width: 768px) {
+   .container {
+     margin: 10px;
+   }
+ }
+.image-container {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+ 
+  .image-container {
+    position: relative;
+    margin: 10px;
+  }
+  
+ 
+  .image-overlay {
+    position: relative;
+    overflow: hidden;
+    background-color: #333; 
+  }
+  
+
+  .image {
+    width: 200px; 
+    height:200px;
+    border: 2px solid #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+ 
+  .overlay-text {
+    color: maroon; /* Text color on hover */
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .image-container .image {
+    position: relative;
+    margin: 10px;
+    opacity: 0; /* Initially set the opacity to 0 */
+    transform: translateY(-20px); /* Move the images up by 20px */
+    transition: opacity 0.5s, transform 0.5s; /* Add transition for opacity and transform */
+  }
+  
+  .image-container .image:nth-child(1) {
+    transition-delay: 0.2s; /* Delay the transition for the first image */
+  }
+  
+  .image-container .image:nth-child(2) {
+    transition-delay: 0.4s; /* Delay the transition for the second image */
+  }
+  
+  .image-container .image:nth-child(3) {
+    transition-delay: 0.6s; /* Delay the transition for the third image */
+  }
+  
+  /* Add more nth-child rules for additional images */
+  
+  .image-container .image-overlay {
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  .image-container .overlay-text {
+    color: white;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.2s, background-color 0.5s;
+    background: linear-gradient(to right, transparent 0%, maroon 100%);
+    width: 0;
+  }
+  
+  .image-container .image-overlay:hover .overlay-text {
+    opacity: 1;
+    width: 100%;
+  }
+  
+  .image-container .image-overlay .image {
+    transition: 0.2s;
+  }
+  
+  .image-container .image-overlay:hover .image {
+    filter: brightness(70%);
+    transition: 0.2s;
+  }
+  
+  /* Apply styles for each image individually */
+  
+  .image-container .image:nth-child(1):hover {
+    opacity: 1;
+    transform: translateY(0); /* Move the first image back to its original position */
+  }
+  
+  .image-container .image:nth-child(2):hover {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .image-container .image:nth-child(3):hover {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Add more nth-child rules for additional images */
+  
+  

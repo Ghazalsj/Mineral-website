@@ -1,0 +1,34 @@
+.card.login-form {
+    background-color: maroon;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    margin: auto;
+    justify-content: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  button,
+  checkbox {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: white;
+    color: maroon;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #fff3f3;
+  }
+  

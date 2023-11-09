@@ -1,0 +1,43 @@
+
+.MDBCarousel {
+  max-width: 700px;
+
+}
+
+
+.MDBCarouselItem {
+  text-align: center; 
+  background-color: #333; 
+  color: white; 
+   
+ 
+} 
+
+
+.MDBCarouselItem{
+
+  max-width: 100%; 
+  height: auto; 
+  border-radius: 5px; 
+}
+
+
+.MDBCarouselItem h5 {
+  font-size: 1.5rem; 
+  margin-bottom: 10px;
+}
+
+.MDBCarouselItem p {
+  font-size: 1rem; 
+}
+
+@keyframes fadeInAndSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px); 
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); 
+  }
+}

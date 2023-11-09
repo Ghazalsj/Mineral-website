@@ -1,0 +1,42 @@
+
+
+.container {
+ margin-top: 70px;
+ display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column {
+display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.separator {
+  flex: 0 0 auto; 
+  padding: 0 10px; 
+ color: maroon;
+ font-size: 100px;
+}
+
+
+
+.heading {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.company-info {
+  font-style: italic;
+  color: #333;
+  font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    margin: 10px;
+  }
+}

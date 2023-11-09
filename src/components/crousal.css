@@ -1,0 +1,56 @@
+
+.item .image-container {
+
+  display: flex;
+  
+  align-items: center;
+  height: 600px; 
+  overflow: hidden;
+
+
+}
+
+
+.image-content {
+  position: relative;
+  transform: translateX(100%);
+  transition: transform 1s ease;
+}
+
+.text-container {
+  background: rgb(113, 20, 20);
+  color: #fff;
+  padding: 20px;
+  position: relative;
+  opacity: 0;
+  transform: translateY(-80px);
+  transition: opacity 2s ease, transform 2s ease;
+  border: 2px solid grey;
+
+}
+
+.text-container p {
+color:white;
+}
+
+
+
+.item:hover .image-content {
+  transform: translateX(0);
+}
+
+.item:hover .text-container {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    height: 300px; 
+  }
+
+  .image-container img {
+    width: 100%; 
+    height: auto; 
+  }
+}
